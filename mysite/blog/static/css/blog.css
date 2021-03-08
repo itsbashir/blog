@@ -1,0 +1,110 @@
+*{
+  font-family: 'Martel', 'Muli', sans-serif;
+}
+a {
+  color: #0a3560;
+  text-decoration: none;
+}
+
+
+#title{
+  text-align: center;
+  text-transform: lowercase;
+}
+
+
+li:active {
+  color: rgb(0, 0, 0);
+}
+
+
+a:hover {
+  color:  #0a3560;
+  text-decoration: underline;
+}
+
+.card:hover{
+  background: rgb(244, 245, 247)
+}
+
+
+nav{
+  color: blue;
+}
+
+.techfont{
+  font-family: 'Muli', sans-serif;
+  font-size: 1.5em;
+   margin-bottom: 10px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+#welcome {
+  text-decoration: none;
+}
+
+
+#editpost:hover {
+  background: transparent;
+}
+#cardnohover:hover{
+  background: transparent;
+}
+.textinputclass {
+  width: 500px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+
+}
+
+
+#loginbtn  {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.postdate{
+  text-align: center;
+}
+  
+.posttitle{
+  font-family: 'Muli', sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+  
+.postcontent{
+  font-family: 'Muli';
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: gray;
+}
+  
+  /* .centerstage{
+    margin-left: auto;
+    margin-right: auto;
+  } */
+  
+  .btn-comment{
+    position: absolute;
+    right: 0px;
+  }
+  
+  .bigbrand{
+    font-size: 1.5em;
+  }
+  
